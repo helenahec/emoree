@@ -1,0 +1,108 @@
+/* styles.css */
+
+/* Header styles */
+.header {
+    background-color: #3399cc;
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+
+.header-logo img {
+    width: 200px; 
+    margin-left: 200px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+
+.header-title {
+    width: 300px; 
+    margin-right: 800px;    
+    display: block; 
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+}
+
+.pageinfo {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    color: #1e73be;
+}
+
+/* Style for the search bar input */
+#schoolIdInput {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the search button and the dropdown */
+#searchButton, #searchType {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for both the button and the dropdown */
+#searchButton:hover, #searchType:hover {
+    background-color: #0056b3; 
+}
+
+.placeholder-content {
+    font-size: 18px;
+    color: #333;
+    padding: 20px; 
+    margin: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .header-logo {
+        width: 100%; 
+        text-align: center;
+    }
+
+    .header-title {
+        display: none;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div {
+    margin: 10px;
+}
+
+label {
+    font-weight: bold;
+}
